@@ -1,10 +1,10 @@
 import os
 import datetime
 import dotenv
-import isodate
 from googleapiclient.discovery import build
 from isodate import parse_duration
 from src.video import Video
+import isodate
 
 dotenv.load_dotenv()
 
